@@ -1,22 +1,20 @@
 {
 	"_meta": {
-		"sources": [
-			{
-				"json": "TheRoyalBrew",
-				"abbreviation": "TRB",
-				"full": "The Royal Brew",
-				"authors": [
-					"J. O. H."
-				],
-				"convertedBy": [
-					"King"
-				],
-				"version": "2",
-				"targetSchema": "1.0.0"
-			},
-			{
-	"subclass": [
-		{
+		"sources": [{
+			"json": "TheRoyalBrew",
+			"abbreviation": "TRB",
+			"full": "The Royal Brew",
+			"authors": [
+				"J. O. H."
+			],
+			"convertedBy": [
+				"King"
+			],
+			"version": "2020.11",
+			"targetSchema": "1.0.0"
+		}]
+	},
+	"subclass": [{
 			"name": "Oath of Throwing It Back",
 			"shortName": "Throwing It Back",
 			"source": "TheRoyalBrew",
@@ -38,58 +36,54 @@
 				"Throw it Back|Paladin||Throwing It Back|TheRoyalBrew|15",
 				"Ruler of the Dance Floor|Paladin||Throwing It Back|TheRoyalBrew|20"
 			],
-			"spells": [
-				{
-					"prepared": {
-						"3": [
-							"earth tremor",
-							"charm person"
-						],
-						"5": [
-							"enthrall",
-							"suggestion"
-						],
-						"9": [
-							"hypnotic pattern",
-							"erupting earth"
-						],
-						"13": [
-							"compulsion",
-							"confusion"
-						],
-						"17": [
-							"dominate person",
-							"seeming"
-						]
-					}
+			"spells": [{
+				"prepared": {
+					"3": [
+						"earth tremor",
+						"charm person"
+					],
+					"5": [
+						"enthrall",
+						"suggestion"
+					],
+					"9": [
+						"hypnotic pattern",
+						"erupting earth"
+					],
+					"13": [
+						"compulsion",
+						"confusion"
+					],
+					"17": [
+						"dominate person",
+						"seeming"
+					]
 				}
-			],
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"earth tremor",
-							"charm person"
-						],
-						"5": [
-							"enthrall",
-							"suggestion"
-						],
-						"9": [
-							"hypnotic pattern",
-							"erupting earth"
-						],
-						"13": [
-							"compulsion",
-							"confusion"
-						],
-						"17": [
-							"dominate person",
-							"seeming"
-						]
-					}
+			}],
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"earth tremor",
+						"charm person"
+					],
+					"5": [
+						"enthrall",
+						"suggestion"
+					],
+					"9": [
+						"hypnotic pattern",
+						"erupting earth"
+					],
+					"13": [
+						"compulsion",
+						"confusion"
+					],
+					"17": [
+						"dominate person",
+						"seeming"
+					]
 				}
-			],
+			}],
 			"className": "Paladin",
 			"classSource": "PHB"
 		},
@@ -97,14 +91,11 @@
 			"name": "Casanova",
 			"shortName": "Casanova",
 			"source": "TheRoyalBrew",
-			"subclassTableGroups": [
-				{
-					"subclasses": [
-						{
-							"name": "Casanova",
-							"source": "TheRoyalBrew"
-						}
-					],
+			"subclassTableGroups": [{
+					"subclasses": [{
+						"name": "Casanova",
+						"source": "TheRoyalBrew"
+					}],
 					"colLabels": [
 						"{@filter Cantrips Known|spells|level=0|subclass=Arcane Trickster}",
 						"{@filter Spells Known|spells|subclass=Arcane Trickster}"
@@ -194,12 +185,10 @@
 				},
 				{
 					"title": "Spell Slots per Spell Level",
-					"subclasses": [
-						{
-							"name": "Casanova",
-							"source": "TheRoyalBrew"
-						}
-					],
+					"subclasses": [{
+						"name": "Casanova",
+						"source": "TheRoyalBrew"
+					}],
 					"colLabels": [
 						"{@filter 1st|spells|level=1|subclass=Arcane Trickster}",
 						"{@filter 2nd|spells|level=2|subclass=Arcane Trickster}",
@@ -340,8 +329,7 @@
 			"classSource": "PHB"
 		}
 	],
-	"subclassFeature": [
-		{
+	"subclassFeature": [{
 			"name": "Oath of Throwing It Back",
 			"source": "TheRoyalBrew",
 			"className": "Paladin",
@@ -353,8 +341,7 @@
 				"To take the Oath of Throwing It Back is to be a dancer, to have your movements define you and smite your force with elegance.",
 				{
 					"name": "Tenets of Throwing It Back",
-					"entries": [
-						{
+					"entries": [{
 							"name": "Rule the dancefloor",
 							"entries": [
 								"If you are dancing, they are not, all eyes on you. You must always be ready drop down onto the floor and walk the dinosaur."
@@ -459,7 +446,7 @@
 		{
 			"name": "Ruler of the Dance floor",
 			"source": "TheRoyalBrew",
-			
+
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Throwing It Back",
@@ -500,68 +487,60 @@
 						"When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and chapter 11 for the {@filter bard spell list|spells|class=bard}.",
 						{
 							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Cantrips",
-									"entries": [
-										"You learn three cantrips from the bard spell list: You learn {@spell vicious mockery} and two other cantrips of your choice from the bard spell list. You learn another bard cantrip of your choice at 10th level."
-									]
-								}
-							]
+							"entries": [{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"You learn three cantrips from the bard spell list: You learn {@spell vicious mockery} and two other cantrips of your choice from the bard spell list. You learn another bard cantrip of your choice at 10th level."
+								]
+							}]
 						},
 						{
 							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Spell Slots",
-									"entries": [
-										"The Casanova Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-										"You start with two 1st-level spell slots at Rogue level 3, and gain more as you gain more Rogue levels."
-									]
-								}
-							]
+							"entries": [{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Casanova Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+									"You start with two 1st-level spell slots at Rogue level 3, and gain more as you gain more Rogue levels."
+								]
+							}]
 						},
 						{
 							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Spells Known",
-									"entries": [
-										"You know three 1st-level bard spells of your choice, two of which must be evocation or illusion spells.",
-										"The Spells Known column in Table: Casanova Spellcasting shows when you learn more bard spells of 1st level or higher. Each of these spells must be an evocation or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-										"Whenever you gain a level in this class, you can replace one of the bard spells you know with another spell of your choice from the bard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level."
-									]
-								}
-							]
+							"entries": [{
+								"type": "entries",
+								"name": "Spells Known",
+								"entries": [
+									"You know three 1st-level bard spells of your choice, two of which must be evocation or illusion spells.",
+									"The Spells Known column in Table: Casanova Spellcasting shows when you learn more bard spells of 1st level or higher. Each of these spells must be an evocation or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+									"Whenever you gain a level in this class, you can replace one of the bard spells you know with another spell of your choice from the bard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level."
+								]
+							}]
 						},
 						{
 							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Spellcasting Ability",
-									"entries": [
-										"Charisma is your spellcasting ability for your bard spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.",
-										{
-											"type": "abilityDc",
-											"name": "Spell",
-											"attributes": [
-												"cha"
-											]
-										},
-										{
-											"type": "abilityAttackMod",
-											"name": "Spell",
-											"attributes": [
-												"cha"
-											]
-										}
-									]
-								}
-							]
+							"entries": [{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Charisma is your spellcasting ability for your bard spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									}
+								]
+							}]
 						}
 					]
 				},
@@ -575,7 +554,6 @@
 					"name": "Quick to Insult",
 					"entries": [
 						"Also at 3rd level you learn to cast the vicious mockery cantrip as a bonus action, as long as it is the only spell casted on your turn."
-					
 					]
 				}
 			]
@@ -603,7 +581,7 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"when a creature fails a saving throw against your vicious mockery spell, you gain advantage on the next attack roll you make before the end of your next turn."
+				"When a creature fails a saving throw against your vicious mockery spell, you gain advantage on the next attack roll you make before the end of your next turn."
 			]
 		},
 		{
