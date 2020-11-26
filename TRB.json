@@ -338,7 +338,7 @@
 			],
 			"className": "Rogue",
 			"classSource": "PHB"
-		},
+		}
 	],
 	"subclassFeature": [
 		{
@@ -452,7 +452,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you can turn dance into a sudden counter. When you are hit by an attack roll or fail a spell saving throw, you can use your reaction to grant a disadvantage on the attack roll or advantage to yourself on the spell saving throw, potentially causing it to miss. If the attack misses, you can turn the attack/spell against the attacker as part of this reaction."
+				"Starting at 15th level, you can turn dance into a sudden counter. When you are hit by an attack roll or fail a spell saving throw, you can use your reaction to grant a disadvantage on the attack roll or advantage to yourself on the spell saving throw, potentially causing it to miss. If the attack misses, you can turn the attack/spell against the attacker as part of this reaction.",
 				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
 			]
 		},
@@ -594,7 +594,7 @@
 			]
 		},
 		{
-			"name": "Cover Fire",
+			"name": "Forked Tongue",
 			"source": "TheRoyalBrew",
 			"className": "Rogue",
 			"classSource": "PHB",
