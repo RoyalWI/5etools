@@ -1,0 +1,601 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "TheRoyalBrew",
+			"abbreviation": "TRB",
+			"full": "The Royal Brew",
+			"authors": [
+				"J. O. H."
+			],
+			"convertedBy": [
+				"King"
+			],
+			"version": "2020.11",
+			"targetSchema": "1.0.0"
+		}]
+	},
+	"subclass": [{
+			"name": "Oath of Throwing It Back",
+			"shortName": "Throwing It Back",
+			"source": "TheRoyalBrew",
+			"subclassSpells": [
+				"earth tremor",
+				"charm person",
+				"enthrall",
+				"suggestion",
+				"hypnotic pattern",
+				"erupting earth",
+				"compulsion",
+				"confusion",
+				"dominate person",
+				"seeming"
+			],
+			"subclassFeatures": [
+				"Oath of Throwing It Back|Paladin||Throwing It Back|TheRoyalBrew|3",
+				"Aura of Attraction|Paladin||Throwing It Back|TheRoyalBrew|7",
+				"Throw it Back|Paladin||Throwing It Back|TheRoyalBrew|15",
+				"Ruler of the Dance Floor|Paladin||Throwing It Back|TheRoyalBrew|20"
+			],
+			"spells": [{
+				"prepared": {
+					"3": [
+						"earth tremor",
+						"charm person"
+					],
+					"5": [
+						"enthrall",
+						"suggestion"
+					],
+					"9": [
+						"hypnotic pattern",
+						"erupting earth"
+					],
+					"13": [
+						"compulsion",
+						"confusion"
+					],
+					"17": [
+						"dominate person",
+						"seeming"
+					]
+				}
+			}],
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"earth tremor",
+						"charm person"
+					],
+					"5": [
+						"enthrall",
+						"suggestion"
+					],
+					"9": [
+						"hypnotic pattern",
+						"erupting earth"
+					],
+					"13": [
+						"compulsion",
+						"confusion"
+					],
+					"17": [
+						"dominate person",
+						"seeming"
+					]
+				}
+			}],
+			"className": "Paladin",
+			"classSource": "PHB"
+		},
+		{
+			"name": "Casanova",
+			"shortName": "Casanova",
+			"source": "TheRoyalBrew",
+			"subclassTableGroups": [{
+					"subclasses": [{
+						"name": "Casanova",
+						"source": "TheRoyalBrew"
+					}],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=Arcane Trickster}",
+						"{@filter Spells Known|spells|subclass=Arcane Trickster}"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							0,
+							0
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							5
+						],
+						[
+							3,
+							6
+						],
+						[
+							3,
+							6
+						],
+						[
+							4,
+							7
+						],
+						[
+							4,
+							8
+						],
+						[
+							4,
+							8
+						],
+						[
+							4,
+							9
+						],
+						[
+							4,
+							10
+						],
+						[
+							4,
+							10
+						],
+						[
+							4,
+							11
+						],
+						[
+							4,
+							11
+						],
+						[
+							4,
+							11
+						],
+						[
+							4,
+							12
+						],
+						[
+							4,
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [{
+						"name": "Casanova",
+						"source": "TheRoyalBrew"
+					}],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=Arcane Trickster}",
+						"{@filter 2nd|spells|level=2|subclass=Arcane Trickster}",
+						"{@filter 3rd|spells|level=3|subclass=Arcane Trickster}",
+						"{@filter 4th|spells|level=4|subclass=Arcane Trickster}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Casanova|Rogue||Casanova|TheRoyalBrew|3",
+				"Love at First Sight|Rogue||Casanova|TheRoyalBrew|9",
+				"Forked Toungue|Rogue||Casanova|TheRoyalBrew|13",
+				"Hungry Eyes|Rogue||Casanova|TheRoyalBrew|17"
+			],
+			"className": "Rogue",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [{
+			"name": "Oath of Throwing It Back",
+			"source": "TheRoyalBrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Throwing It Back",
+			"subclassSource": "TheRoyalBrew",
+			"level": 3,
+			"entries": [
+				"To take the Oath of Throwing It Back is to be a dancer, to have your movements define you and smite your force with elegance.",
+				{
+					"name": "Tenets of Throwing It Back",
+					"entries": [{
+							"name": "Rule the dancefloor",
+							"entries": [
+								"If you are dancing, they are not, all eyes on you. You must always be ready drop down onto the floor and walk the dinosaur."
+							]
+						},
+						{
+							"name": "Feel the rhythm",
+							"entries": [
+								"You must always vibe with the music. Is the bard is playing on one place you are not staying, you moving."
+							]
+						},
+						{
+							"name": "Always throw it back",
+							"entries": [
+								"One must throw it back should it be passed to them. You cannot keep it, that is what villains do."
+							]
+						}
+					]
+				},
+				{
+					"name": "Oath Spells",
+					"entries": [
+						"You gain oath spells at the paladin levels listed."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Oath of Throwing It Back Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell earth tremor}, {@spell charm person}"
+						],
+						[
+							"5th",
+							"{@spell enthrall}, {@spell suggestion}"
+						],
+						[
+							"9th",
+							"{@spell hypnotic pattern}, {@spell mass erupting earth}"
+						],
+						[
+							"13th",
+							"{@spell compulsion}, {@spell confusion}"
+						],
+						[
+							"17th",
+							"{@spell dominate person}, {@spell seeming}"
+						]
+					]
+				},
+				{
+					"name": "Channel Divinity: Ritual Dance",
+					"entries": [
+						"As an action, add a +3 to all Charisma ability checks for 1 minute."
+					]
+				},
+				{
+					"name": "Channel Divinity: Smack That",
+					"entries": [
+						"As an action, you rapidly place your palm on your bottom. All creatures within 10 feet of you that can see you must succeed a Charisma saving throw against your paladin spellcasting DC. On a failure, they become Charmed by you for 1 minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Attraction",
+			"source": "TheRoyalBrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Throwing It Back",
+			"subclassSource": "TheRoyalBrew",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you have an aura of rhythm and confidence. Allies within 10 feet of you gain a bonus to their Charisma checks equal to your charisma modifier.",
+				"The range of this aura increases to 30 feet at 18th level."
+			]
+		},
+		{
+			"name": "Throw it Back",
+			"source": "TheRoyalBrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Throwing It Back",
+			"subclassSource": "TheRoyalBrew",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you can turn dance into a sudden counter. When you are hit by an attack roll or fail a spell saving throw, you can use your reaction to grant a disadvantage on the attack roll or advantage to yourself on the spell saving throw, potentially causing it to miss. If the attack misses, you can turn the attack/spell against the attacker as part of this reaction.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Ruler of the Dance floor",
+			"source": "TheRoyalBrew",
+
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Throwing It Back",
+			"subclassSource": "TheRoyalBrew",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"Starting at 20th level you can use your action to undergo a transformation that lasts for 1 minute and grants the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are under the effects of the {@spell glibness} spell.",
+						"You emanate an aura of attraction in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Charisma saving throw or become {@condition charmed} of you for 1 minute or until it takes any damage. Attack rolls against the charmed creature have advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						"Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Casanova",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Casanova",
+			"subclassSource": "TheRoyalBrew",
+			"level": 3,
+			"entries": [
+				"Giacomo Casanova, a famed womanizer and wooer of many nobles, has inspired more than one person to dabble in dating more than one partner at the same time. You take the idea to the next level.",
+				{
+					"type": "entries",
+					"name": "Spellcasting",
+					"entries": [
+						"When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and chapter 11 for the {@filter bard spell list|spells|class=bard}.",
+						{
+							"type": "entries",
+							"entries": [{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"You learn three cantrips from the bard spell list: You learn {@spell vicious mockery} and two other cantrips of your choice from the bard spell list. You learn another bard cantrip of your choice at 10th level."
+								]
+							}]
+						},
+						{
+							"type": "entries",
+							"entries": [{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Casanova Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+									"You start with two 1st-level spell slots at Rogue level 3, and gain more as you gain more Rogue levels."
+								]
+							}]
+						},
+						{
+							"type": "entries",
+							"entries": [{
+								"type": "entries",
+								"name": "Spells Known",
+								"entries": [
+									"You know three 1st-level bard spells of your choice, two of which must be evocation or illusion spells.",
+									"The Spells Known column in Table: Casanova Spellcasting shows when you learn more bard spells of 1st level or higher. Each of these spells must be an evocation or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+									"Whenever you gain a level in this class, you can replace one of the bard spells you know with another spell of your choice from the bard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level."
+								]
+							}]
+						},
+						{
+							"type": "entries",
+							"entries": [{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Charisma is your spellcasting ability for your bard spells. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									}
+								]
+							}]
+						}
+					]
+				},
+				{
+					"name": "Love Interest",
+					"entries": [
+						"Additionally at 3rd level, when finishing a long rest, you can choose one ally to become your love interest, when you and your love interest are within 30 feet of each other you both have advantage on saving throws against being {@condition charmed} or {@condition frightened}. This bond lasts as long as both you and the ally are conscious, or until you choose a different ally as a part of a long rest."
+					]
+				},
+				{
+					"name": "Quick to Insult",
+					"entries": [
+						"Also at 3rd level you learn to cast the vicious mockery cantrip as a bonus action, as long as it is the only spell casted on your turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Love at First Sight",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Casanova",
+			"subclassSource": "TheRoyalBrew",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, any creature that is {@condition charmed} by you, has disadvantage against spell saving throws."
+			]
+		},
+		{
+			"name": "Forked Tongue",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Casanova",
+			"subclassSource": "TheRoyalBrew",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"When a creature fails a saving throw against your vicious mockery spell, you gain advantage on the next attack roll you make before the end of your next turn."
+			]
+		},
+		{
+			"name": "Hungry Eyes",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Casanova",
+			"subclassSource": "TheRoyalBrew",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your spells ignore charm immunities. Once per long rest you can force a creature to fail a save against being Charmed."
+			]
+		}
+	]
+}
