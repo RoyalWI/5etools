@@ -600,6 +600,7 @@
 	],
 	"item": [{
 		"name": "Bastard Sword",
+		"source": "TheRoyalBrew",
 		"type": "M",
 		"weapon": true,
 		"weaponCategory": "Martial",
