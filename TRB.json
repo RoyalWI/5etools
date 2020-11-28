@@ -596,6 +596,24 @@
 			"entries": [
 				"At 17th level, your spells ignore charm immunities. Once per long rest you can force a creature to fail a save against being Charmed."
 			]
+		},
+		{
+			"item": [{
+				"name": "Estoc",
+				"source": "TheRoyalBrew",
+				"type": "M",
+				"weaponCategory": "martial",
+				"dmg1": "1d8",
+				"dmg2": "1d10",
+				"dmgType": "P",
+				"property": [
+					"F",
+					"V"
+				],
+				"rarity": "none",
+				"value": "4000"
+			}]
 		}
+
 	]
 }
