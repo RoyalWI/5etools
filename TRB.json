@@ -5,7 +5,7 @@
 			"abbreviation": "TRB",
 			"full": "The Royal Brew",
 			"authors": [
-				"J. O. H."
+				"Joh"
 			],
 			"convertedBy": [
 				"King"
@@ -621,7 +621,7 @@
 			"weight": 4,
 			"dmg1": "1d8",
 			"dmg2": "1d10",
-			"dmgType": "p",
+			"dmgType": "P",
 			"property": [
 				"F",
 				"V"
