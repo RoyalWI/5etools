@@ -599,20 +599,37 @@
 		}
 	],
 	"item": [{
-		"name": "Bastard Sword",
-		"source": "TheRoyalBrew",
-		"type": "M",
-		"weapon": true,
-		"weaponCategory": "Martial",
-		"rarity": "none",
-		"value": 3000,
-		"weight": 5,
-		"dmg1": "2d4",
-		"dmg2": "2d6",
-		"dmgType": "S",
-		"property": [
-			"H",
-			"V"
-		]
-	}]
+			"name": "Bastard Sword",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 5,
+			"dmg1": "2d4",
+			"dmg2": "2d6",
+			"dmgType": "S",
+			"property": [
+				"H",
+				"V"
+			],
+			"rarity": "none",
+			"source": "TheRoyalBrew",
+			"value": 3000
+		},
+		{
+			"name": "Estoc",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "p",
+			"property": [
+				"F",
+				"V"
+			],
+			"rarity": "none",
+			"source": "TheRoyalBrew",
+			"value": 4000
+		}
+
+	]
 }
