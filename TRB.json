@@ -629,6 +629,18 @@
 			"rarity": "none",
 			"source": "TheRoyalBrew",
 			"value": 4000
+		}, {
+			"name": "Buckler",
+			"type": "S",
+			"weight": 3,
+			"bonusAC": "+1",
+			"rarity": "none",
+			"source": "TheRoyalBrew",
+			"value": 300,
+			"entries": [
+				"A buckler is made from wood or metal and is carried in one hand. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield at a time.",
+				"It's light design allows you to don or doff it as a bonus action."
+			]
 		}
 
 	]
