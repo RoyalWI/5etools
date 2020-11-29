@@ -618,6 +618,7 @@
 			"subclassShortName": "Arsonist",
 			"subclassSource": "TheRoyalBrew",
 			"level": 3,
+			"header": 2,
 			"entries": [
 				"You strike matches faster than you speak and your eyes burn with passion. Passion for heat, inferno and chaos.Fire draws you close, and burns within you, it speaks to you, and you listen, it wants to be spread and you aid it with your calling.",
 				{
@@ -632,122 +633,122 @@
 								"At the start of your next turn",
 								"Or any time as if you were preparing an action"
 							]
-						},
-						{
-							"type": "entries",
-							"entries": [
-								"You can only have one explosive on prepared detonation at a time.",
-								"Alternatively as a bonus action you can throw it up to 60 feet onto a space making all creatures within 5 feet of the explosive then must succeed on a Dexterity saving throw:"
-							]
-						},
-						{
-							"type": "abilityDc",
-							"name": "Explosive",
-							"attributes": [
-								"dex"
-							]
 						}
 					]
 				},
 				{
 					"type": "entries",
 					"entries": [
-						"The bombs deal fire damage equal to half the number of your sneak attack dice for your level (rounded up)."
+						"You can only have one explosive on prepared detonation at a time.",
+						"Alternatively as a bonus action you can throw it up to 60 feet onto a space making all creatures within 5 feet of the explosive then must succeed on a Dexterity saving throw:"
 					]
 				},
 				{
-					"name": "Bonus Proficiencies",
-					"entries": [
-						"When you choose this archetype at 3rd level, you gain proficiency with the {@item tinker's tools} and  Dexterity ({@skill Sleight of Hand}) if you aren’t already proficient."
-					]
-				},
-				{
-					"name": "2nd Bomb: Blast Inferno",
-					"source": "TheRoyalBrew",
-					"className": "Rogue",
-					"classSource": "PHB",
-					"subclassShortName": "Arsonist",
-					"subclassSource": "TheRoyalBrew",
-					"level": 9,
-					"header": 2,
-					"entries": [
-						"Starting at 9th level, your explosives ignore fire resistance, and when thrown the radius increases to 10 feet and the cloud of explosion stays on the battlefield for an additional round after the round it explodes on."
-					]
-				}, {
-					"name": "Asbestos Skin",
-					"source": "TheRoyalBrew",
-					"className": "Rogue",
-					"classSource": "PHB",
-					"subclassShortName": "Arsonist",
-					"subclassSource": "TheRoyalBrew",
-					"level": 13,
-					"header": 2,
-					"entries": [
-						"At 13th level, you gain resistance to fire damage and can withstand high degrees of temperature without exerting too much effort. "
-					]
-				},
-				{
-					"name": "3rd Bomb: Bites The Dust",
-					"source": "TheRoyalBrew",
-					"className": "Rogue",
-					"classSource": "PHB",
-					"subclassShortName": "Arsonist",
-					"subclassSource": "TheRoyalBrew",
-					"level": 17,
-					"header": 2,
-					"entries": [
-						"At 17th level, level your explosives ignore fire resistances and immunities. The blast ignores all cover and destroys all every {@object generic object} made from stone, wood or any lesser material that is obliterated instantly.",
-						"Additionally after detonating your explosive you can recall yourself to the place of it’s explosion, teleporting up to 30 feet without provoking opportunity attacks, when you enter the blast radius you become heavily obstructed and immune to fire damage for as long as the blast lasts on the battlefield."
+					"type": "abilityDc",
+					"name": "Explosive",
+					"attributes": [
+						"dex"
 					]
 				}
-			],
-			"item": [{
-					"name": "Bastard Sword",
-					"type": "M",
-					"weaponCategory": "martial",
-					"weight": 5,
-					"dmg1": "2d4",
-					"dmg2": "2d6",
-					"dmgType": "S",
-					"property": [
-						"H",
-						"V"
-					],
-					"rarity": "none",
-					"source": "TheRoyalBrew",
-					"value": 3000
-				},
-				{
-					"name": "Estoc",
-					"type": "M",
-					"weaponCategory": "martial",
-					"weight": 4,
-					"dmg1": "1d8",
-					"dmg2": "1d10",
-					"dmgType": "P",
-					"property": [
-						"F",
-						"V"
-					],
-					"rarity": "none",
-					"source": "TheRoyalBrew",
-					"value": 4000
-				},
-				{
-					"name": "Buckler",
-					"type": "S",
-					"weight": 3,
-					"ac": 1,
-					"rarity": "none",
-					"value": 2000,
-					"source": "TheRoyalBrew",
-					"entries": [
-						"This small metal shield is held by a simple handle for ease of maneuvering. It increases your Armor Class by 1 (replacing the shield's normal bonus to AC) and you are proficient in its use if you are proficient with light armor.",
-						"It also weighs half as much as a regular shield and can be donned or doffed by using an bonus action."
-					]
-				}
-
+			]
+		},
+		{
+			"type": "entries",
+			"entries": [
+				"The bombs deal fire damage equal to half the number of your sneak attack dice for your level (rounded up)."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency with the {@item tinker's tools} and  Dexterity ({@skill Sleight of Hand}) if you aren’t already proficient."
+			]
+		},
+		{
+			"name": "2nd Bomb: Blast Inferno",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Arsonist",
+			"subclassSource": "TheRoyalBrew",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, your explosives ignore fire resistance, and when thrown the radius increases to 10 feet and the cloud of explosion stays on the battlefield for an additional round after the round it explodes on."
+			]
+		}, {
+			"name": "Asbestos Skin",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Arsonist",
+			"subclassSource": "TheRoyalBrew",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you gain resistance to fire damage and can withstand high degrees of temperature without exerting too much effort. "
+			]
+		},
+		{
+			"name": "3rd Bomb: Bites The Dust",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Arsonist",
+			"subclassSource": "TheRoyalBrew",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, level your explosives ignore fire resistances and immunities. The blast ignores all cover and destroys all every {@object generic object} made from stone, wood or any lesser material that is obliterated instantly.",
+				"Additionally after detonating your explosive you can recall yourself to the place of it’s explosion, teleporting up to 30 feet without provoking opportunity attacks, when you enter the blast radius you become heavily obstructed and immune to fire damage for as long as the blast lasts on the battlefield."
 			]
 		}
+	],
+	"item": [{
+			"name": "Bastard Sword",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 5,
+			"dmg1": "2d4",
+			"dmg2": "2d6",
+			"dmgType": "S",
+			"property": [
+				"H",
+				"V"
+			],
+			"rarity": "none",
+			"source": "TheRoyalBrew",
+			"value": 3000
+		},
+		{
+			"name": "Estoc",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"V"
+			],
+			"rarity": "none",
+			"source": "TheRoyalBrew",
+			"value": 4000
+		},
+		{
+			"name": "Buckler",
+			"type": "S",
+			"weight": 3,
+			"ac": 1,
+			"rarity": "none",
+			"value": 2000,
+			"source": "TheRoyalBrew",
+			"entries": [
+				"This small metal shield is held by a simple handle for ease of maneuvering. It increases your Armor Class by 1 (replacing the shield's normal bonus to AC) and you are proficient in its use if you are proficient with light armor.",
+				"It also weighs half as much as a regular shield and can be donned or doffed by using an bonus action."
+			]
+		}
+
 	]
 }
