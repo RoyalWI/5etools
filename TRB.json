@@ -736,7 +736,7 @@
 				{
 					"name": "Bonus Proficiencies",
 					"entries": [
-						"When you choose this archetype at 3rd level, you gain proficiency with {@table martial ranged weapons (and firearms) if they are present in your setting)"
+						"When you choose this archetype at 3rd level, you gain proficiency with {@table martial ranged weapons} (and firearms) if they are present in your setting)"
 					]
 				}
 			]
