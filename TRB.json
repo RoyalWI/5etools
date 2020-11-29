@@ -676,7 +676,8 @@
 			"entries": [
 				"Starting at 9th level, your explosives ignore fire resistance, and when thrown the radius increases to 10 feet and the cloud of explosion stays on the battlefield for an additional round after the round it explodes on."
 			]
-		}, {
+		},
+		{
 			"name": "Asbestos Skin",
 			"source": "TheRoyalBrew",
 			"className": "Rogue",
