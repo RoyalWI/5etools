@@ -333,7 +333,7 @@
 			"shortName": "Arsonist",
 			"source": "TheRoyalBrew",
 			"subclassFeatures": [
-				"1st Bomb: Explosive Surprise|Rogue||Arsonist|TheRoyalBrew|3",
+				"Arsonist|Rogue||Arsonist|TheRoyalBrew|3",
 				"2nd Bomb: Blast Inferno|Rogue||Arsonist|TheRoyalBrew|9",
 				"Asbestos Skin|Rogue||Arsonist|TheRoyalBrew|13",
 				"3rd Bomb: Bites The Dust|Rogue||Arsonist|TheRoyalBrew|17"
@@ -691,7 +691,7 @@
 					"source": "TheRoyalBrew",
 					"className": "Rogue",
 					"classSource": "PHB",
-					"subclassShortName": "Casanova",
+					"subclassShortName": "Arsonist",
 					"subclassSource": "TheRoyalBrew",
 					"level": 17,
 					"header": 2,
