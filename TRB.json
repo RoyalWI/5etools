@@ -340,6 +340,19 @@
 			],
 			"className": "Rogue",
 			"classSource": "PHB"
+		},
+		{
+			"name": "Rangefinder",
+			"shortName": "Rangefinder",
+			"source": "TheRoyalBrew",
+			"subclassFeatures": [
+				"Rangefinder|Rogue||Rangefinder|TheRoyalBrew|3",
+				"High Visibility Ammunition|Rogue||Rangefinder|TheRoyalBrew|9",
+				"Spoils of the Battlefield|Rogue||Rangefinder|TheRoyalBrew|13",
+				"Pinnacle of Marksmanship|Rogue||Rangefinder|TheRoyalBrew|17"
+			],
+			"className": "Rogue",
+			"classSource": "PHB"
 		}
 	],
 	"subclassFeature": [{
@@ -618,7 +631,6 @@
 			"subclassShortName": "Arsonist",
 			"subclassSource": "TheRoyalBrew",
 			"level": 3,
-			"header": 2,
 			"entries": [
 				"You strike matches faster than you speak and your eyes burn with passion. Passion for heat, inferno and chaos.Fire draws you close, and burns within you, it speaks to you, and you listen, it wants to be spread and you aid it with your calling.",
 				{
@@ -649,19 +661,19 @@
 					"attributes": [
 						"dex"
 					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						"The bombs deal fire damage equal to half the number of your sneak attack dice for your level (rounded up)."
+					]
+				},
+				{
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"When you choose this archetype at 3rd level, you gain proficiency with the {@item tinker's tools} and  Dexterity ({@skill Sleight of Hand}) if you aren’t already proficient."
+					]
 				}
-			]
-		},
-		{
-			"type": "entries",
-			"entries": [
-				"The bombs deal fire damage equal to half the number of your sneak attack dice for your level (rounded up)."
-			]
-		},
-		{
-			"name": "Bonus Proficiencies",
-			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency with the {@item tinker's tools} and  Dexterity ({@skill Sleight of Hand}) if you aren’t already proficient."
 			]
 		},
 		{
@@ -702,6 +714,71 @@
 			"entries": [
 				"At 17th level, level your explosives ignore fire resistances and immunities. The blast ignores all cover and destroys all every {@object generic object} made from stone, wood or any lesser material that is obliterated instantly.",
 				"Additionally after detonating your explosive you can recall yourself to the place of it’s explosion, teleporting up to 30 feet without provoking opportunity attacks, when you enter the blast radius you become heavily obstructed and immune to fire damage for as long as the blast lasts on the battlefield."
+			]
+		},
+		{
+			"name": "Rangefinder",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Rangefinder",
+			"subclassSource": "TheRoyalBrew",
+			"level": 3,
+			"entries": [
+				"You always preferred the distant approach, you never really liked getting your hands dirty, so you did all your deeds from afar, which makes ranged weapons your best friend.",
+				{
+					"type": "entries",
+					"name": "Critical Eye",
+					"entries": [
+						"Starting at 3rd level you don’t need advantage when you are at ⅓ effective range of a weapon (½ for loading weapons) to land a sneak attack."
+					]
+				},
+				{
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"When you choose this archetype at 3rd level, you gain proficiency with {@table martial ranged weapons (and firearms) if they are present in your setting)"
+					]
+				}
+			]
+		},
+		{
+			"name": "High Visibility Ammunition",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Rangefinder",
+			"subclassSource": "TheRoyalBrew",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level when you choose to Attack with a ranged weapon, you can as a free action choose to use special ammunition, which regardless of if you hit or miss the attack, marks the target with bright liquid, which has the spell {@spell hunter’s mark}.",
+				"You can use this feature an amount of times equal to your ½  your proficiency bonus, and you regain all uses when you finish a short or long rest. You can only have one marked enemy at a time."
+			]
+		},
+		{
+			"name": "Spoils of the Battlefield",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Rangefinder",
+			"subclassSource": "TheRoyalBrew",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, when you move in combat, and are in a suitable environment (battlefield, guardhouse, training grounds, or a place with enough bodies) You can use your bonus action to scavenge 1 piece of desired ammunition per 5 feet moved on your turn."
+			]
+		},
+		{
+			"name": "Pinnacle of Marksmanship",
+			"source": "TheRoyalBrew",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Rangefinder",
+			"subclassSource": "TheRoyalBrew",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, all the ammunition you use becomes magical and ignores cover, if you land a critical hit, the piece of ammunition goes through the first target, letting you roll an additional attack roll for the possible further target within your line of fire should the next attack also be a critical hit, this repeats until the attack misses, runs out of range or has no other target to hit."
 			]
 		}
 	],
@@ -750,6 +827,5 @@
 				"It also weighs half as much as a regular shield and can be donned or doffed by using an bonus action."
 			]
 		}
-
 	]
 }
