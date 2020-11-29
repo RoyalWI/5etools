@@ -649,19 +649,19 @@
 					"attributes": [
 						"dex"
 					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						"The bombs deal fire damage equal to half the number of your sneak attack dice for your level (rounded up)."
+					]
+				},
+				{
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"When you choose this archetype at 3rd level, you gain proficiency with the {@item tinker's tools} and  Dexterity ({@skill Sleight of Hand}) if you aren’t already proficient."
+					]
 				}
-			]
-		},
-		{
-			"type": "entries",
-			"entries": [
-				"The bombs deal fire damage equal to half the number of your sneak attack dice for your level (rounded up)."
-			]
-		},
-		{
-			"name": "Bonus Proficiencies",
-			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency with the {@item tinker's tools} and  Dexterity ({@skill Sleight of Hand}) if you aren’t already proficient."
 			]
 		},
 		{
@@ -750,6 +750,5 @@
 				"It also weighs half as much as a regular shield and can be donned or doffed by using an bonus action."
 			]
 		}
-
 	]
 }
