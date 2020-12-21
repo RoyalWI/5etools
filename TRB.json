@@ -789,7 +789,7 @@
 				"type": "entries",
 				"name": "Superheavy",
 				"entries": [
-					"When hit by a weapon with the entangle property the target gains the Grappled condition until the weapon is removed."
+					"Creatures that are Small, Tiny or Medium have disadvantage on attack rolls with superheavy weapons. A superheavy weapon's size and bulk make it too large for a Small, Tiny or Medium creature to use effectively. (Medium creatures with the Powerful Build feature bypass this limitation)"
 				]
 			}]
 		},
