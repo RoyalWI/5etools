@@ -5,12 +5,12 @@
 			"abbreviation": "TRB",
 			"full": "The Royal Brew",
 			"authors": [
-				"Joh"
+				"Royal"
 			],
 			"convertedBy": [
 				"King"
 			],
-			"version": "2020.11",
+			"version": "2020.12",
 			"targetSchema": "1.0.0"
 		}]
 	},
@@ -782,17 +782,41 @@
 			]
 		}
 	],
+	"itemProperty": [{
+			"abbreviation": "SH",
+			"source": "TheRoyalBrew",
+			"entries": [{
+				"type": "entries",
+				"name": "Superheavy",
+				"entries": [
+					"Creatures that are Small, Tiny or Medium have disadvantage on attack rolls with superheavy weapons. A superheavy weapon's size and bulk make it too large for a Small, Tiny or Medium creature to use effectively. (Medium creatures with the Powerful Build feature bypass this limitation)"
+				]
+			}]
+		},
+		{
+			"abbreviation": "EX",
+			"source": "TheRoyalBrew",
+			"entries": [{
+				"type": "entries",
+				"name": "Exotic",
+				"entries": [
+					"No characters are proficient with exotic weapons by default. To become proficient with an exotic weapon, a character must be trained in the use of that specific weapon."
+				]
+			}]
+		}
+	],
 	"item": [{
 			"name": "Bastard Sword",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 5,
-			"dmg1": "2d4",
-			"dmg2": "2d6",
+			"dmg1": "1d8",
+			"dmg2": "1d12",
 			"dmgType": "S",
 			"property": [
 				"H",
-				"V"
+				"V",
+				"EX"
 			],
 			"rarity": "none",
 			"source": "TheRoyalBrew",
@@ -808,11 +832,28 @@
 			"dmgType": "P",
 			"property": [
 				"F",
-				"V"
+				"V",
+				"EX"
 			],
 			"rarity": "none",
 			"source": "TheRoyalBrew",
 			"value": 4000
+		},
+		{
+			"name": "Giantsword",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 12,
+			"dmg1": "2d8",
+			"dmgType": "S",
+			"property": [
+				"SH",
+				"2H",
+				"EX"
+			],
+			"rarity": "none",
+			"source": "TheRoyalBrew",
+			"value": 10000
 		},
 		{
 			"name": "Buckler",
@@ -826,6 +867,12 @@
 				"This small metal shield is held by a simple handle for ease of maneuvering. It increases your Armor Class by 1 (replacing the shield's normal bonus to AC) and you are proficient in its use if you are proficient with light armor.",
 				"It also weighs half as much as a regular shield and can be donned or doffed by using an bonus action."
 			]
+		},
+		{
+			"name": "Chessers",
+			"type": "GS",
+			"source": "TheRoyalBrew",
+			"value": 690
 		}
 	]
 }
